@@ -27,6 +27,7 @@
             android:fontFamily="@font/roboto_regular"/>
         
         <EditText
+            android:id="@+id/edittext_email"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Email"
@@ -39,6 +40,7 @@
             android:background="@drawable/editext_custom"/>
 
         <EditText
+            android:id="@+id/edittext_password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="Password"
@@ -61,6 +63,7 @@
         android:gravity="center"
         >
         <Button
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="INICIAR SESION"
